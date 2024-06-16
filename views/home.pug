@@ -1,0 +1,57 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style 
+      include ../static/style.css  
+
+block content 
+    nav#navbar 
+         ul 
+             div#logo
+                 img(src="/static/img/logo.png")
+                 | DDA
+             li #[a(href= "/") Home] 
+             li #[a(href= "/") About] 
+             li #[a(href= "/") Services] 
+             li #[a(href= "/") Class Info]
+             li #[a(href= "/contact") Contact Us]
+
+    section#introSection
+       div Welcome to Dhara's Dance Acamdey 
+       div.small Eat Sleep Dance Repeat
+
+    section#MissionSection
+       h2 Our Mission 
+       div.card
+          h3  Dance Perfaction
+          div.card-box
+              div.card-img 
+                  img(src="/static/img/2.png")
+              div.card-content  
+                    p This is a best Dance Academy of the universe 
+       div.card
+          h3  Dance the way u Like
+          div.card-box
+              div.card-img 
+                  img(src="/static/img/1.png")
+              div.card-content  
+                    p This is a best Dance Academy of the universe
+       div.card
+          h3  Expert Teaching
+          div.card-box
+              div.card-img 
+                  img(src="/static/img/3.png")
+              div.card-content  
+                    p This is a best Dance Academy of the universe
+
+    section#sponsorsSection
+       h2 Our Sponsors 
+       div#sponsors
+           img(src="/static/img/s1.png", alt="Sponsor Image" , class="spImage")
+           img(src="/static/img/s2.png", alt="Sponsor Image" , class="spImage")
+           img(src="/static/img/s3.png", alt="Sponsor Image" , class="spImage")
+           img(src="/static/img/s4.png", alt="Sponsor Image" , class="spImage")
+           img(src="/static/img/s5.png", alt="Sponsor Image" , class="spImage")
