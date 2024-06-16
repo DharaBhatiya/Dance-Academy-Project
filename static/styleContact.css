@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    font-size: 12px;
+    width: 30%;
+    padding: 6px;
+    margin: 6px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(233, 232, 232);
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
+.btn:hover{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* footer{
+    position: relative;
+    bottom: 0;
+} */
+#footer {
+    /* display: flex;
+    color: white;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+}
